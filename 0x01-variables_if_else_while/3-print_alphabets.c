@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(lcAlpha);
 	}
-  for (ucAlpha= 'A'; ucAlpha <= 'Z'; ucAlpha++)
+  	for (ucAlpha = 'A'; ucAlpha <= 'Z'; ucAlpha++)
 	{
 		putchar(ucAlpha);
 	}
