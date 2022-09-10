@@ -9,12 +9,11 @@ int main(void)
 {
 	char alphaStart = 'a', alphaEnd = 'z';
 
-	do
+	while (alphaStart <= alphaEnd && (alphaStart != 'e' || alphaStart != 'q'))
 	{
 		putchar(alphaStart);
 		alphaStart++;
 	}
-	while (alphaStart <= alphaEnd && (alphaStart != 'e' || alphaStart != 'q'));
 	putchar('\n');
 	return (0);
 }
