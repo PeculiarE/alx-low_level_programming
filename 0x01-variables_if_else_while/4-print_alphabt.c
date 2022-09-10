@@ -12,7 +12,7 @@ int main(void)
 	do
 	{
 		putchar(alphaStart);
-	  alphaStart++;
+		alphaStart++;
 	}
 	while (alphaStart <= alphaEnd && (alphaStart != 'e' || alphaStart != 'q'));
 	putchar('\n');
