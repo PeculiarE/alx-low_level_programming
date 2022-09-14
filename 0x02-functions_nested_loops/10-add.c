@@ -2,8 +2,8 @@
 
 /**
  * add - Adds two integers
- * num1 - First integer to be added
- * num1 - Second integer to be added
+ * @param num1 - First integer to be added
+ * @param num2 - Second integer to be added
  *
  * Return: Sum of the two integers
  */
