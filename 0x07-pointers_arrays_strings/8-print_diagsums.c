@@ -6,7 +6,7 @@
  * diagonals of a square matrix of integers
  * @a: input pointer.
  * @size: size of the matrix.
- * Return: no return.
+ * Return: Always (0).
  */
 void print_diagsums(int *a, int size)
 {
@@ -24,4 +24,5 @@ void print_diagsums(int *a, int size)
 		}
 	}
 	printf("%d, %d\n", sum1, sum2);
+	return (0);
 }
